@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: https://tsunagu-pharm.com/sitemap.xml
