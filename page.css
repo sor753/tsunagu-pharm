@@ -1,0 +1,364 @@
+@charset 'UTF-8';
+/* common
+------------------------------------------------------------*/
+.icn_img {
+  width: 2.2rem;
+}
+/* header
+--------------------------------------------------*/
+.header_menu {
+  width: 100%;
+  height: 2.7rem;
+  padding: 7.5px 25px;
+  background-color: rgba(238, 198, 220, 0.8);
+  border-radius: 36px;
+}
+.toggle_open span {
+  background-color: #fff;
+}
+.catch_container {
+  height: 14.5rem;
+}
+.about_page .nav_lnk_about,
+.hospital_page .nav_lnk_hospital,
+.item_page .nav_lnk_item,
+.line_page .nav_lnk_line,
+.access_page .nav_lnk_access,
+.announce_page .nav_lnk_announce,
+.prescription_page .nav_lnk_prescription,
+.regular_page .nav_lnk_regular {
+  color: #777 !important;
+}
+@media screen and (min-width: 768px ) {
+  .catch_container {
+    height: 21rem;
+  }
+}
+@media screen and (min-width: 1280px ) {
+  .catch_container {
+    height: 30rem;
+  }
+}
+/* footer
+--------------------------------------------------*/
+footer {
+  background-color: #f255ab;
+}
+footer .container {
+  padding-top: 8rem;
+}
+.footer_link::after {
+  border: solid 0.1rem #fff;
+}
+@media screen and (min-width: 1280px ) {
+  footer .container {
+    padding-top: 16rem;
+  }
+}
+/* about
+------------------------------------------------------------*/
+.about_page .page_catch {
+  background: url(/img/outside_2.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* main
+--------------------------------------------------*/
+.about_img img {
+  width: 100%;
+}
+.about_container {
+  width: 28rem;
+}
+.about_wrap i {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+.about_item::after {
+  content: " ";
+  display: block;
+  border-bottom: solid 2px #f255ab;
+  width: 6rem;
+  margin:0 auto;
+}
+.about_inner {
+  padding: 5rem 0;
+}
+.open_table {
+  border: solid 0.1rem #333;
+}
+.open_table tr,
+.open_table th,
+.open_table td {
+  border: solid 0.1rem #333;
+}
+.open_table th {
+  padding: 1rem 0.2rem;
+}
+.open_table td {
+  padding: 1rem 0.5rem;
+}
+@media screen and (min-width: 768px ) {
+  .about_container {
+    width: 42rem;
+  }
+  .open_table {
+    border: solid 0.2rem #333;
+  }
+  .open_table tr,
+  .open_table th,
+  .open_table td {
+    border: solid 0.2rem #333;
+  }
+  .open_table th {
+    padding: 2rem 0.5rem;
+  }
+  .open_table td {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (min-width: 1280px ) {
+  .about_item i {
+    font-size: 12rem;
+    line-height: 18rem;
+  }
+  .about_item::after {
+    content: " ";
+    display: block;
+    border-bottom: solid 2px #f255ab;
+    width: 9rem;
+    margin:0 auto;
+  }
+  .about_inner {
+    padding: 10rem 0;
+  }
+  .about_inner p {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+}
+
+/* hospital
+------------------------------------------------------------*/
+.hospital_page .page_catch {
+  background: #a3ffd1 url(/img/hospital.png) center center / cover no-repeat;
+}
+/* main
+--------------------------------------------------*/
+
+/* item
+------------------------------------------------------------*/
+.item_page .page_catch {
+  background: url(/img/hiroko-005.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* main
+--------------------------------------------------*/
+
+/* line
+------------------------------------------------------------*/
+.line_page .page_catch {
+  background: #00b903 url(/img/line@2x.jpg) center center / auto 35rem no-repeat;
+}
+.line_qr {
+  width: 80%;
+  max-width: 400px;
+}
+/* main
+--------------------------------------------------*/
+.hospital_txt {
+  padding-bottom: 5rem;
+}
+.howto_line_container {
+  height: 95%;
+  background-color: #eec6dc;
+}
+.line_wrap h3 img {
+  padding-right: 1.5rem;
+}
+.line_item:last-child {
+  border: none;
+}
+.line_item svg {
+  width: 3rem;
+  height: auto;
+}
+.line_item .active svg {
+  transform: rotate(180deg);
+}
+.privacy {
+  margin-top: 5rem;
+}
+.privacy_img {
+  width: 100%;
+  height: auto;
+  padding: 1.5rem 0;
+}
+.privacy_img source, .privacy_img img {
+    width: 100%;
+    height: auto;
+}
+.attention {
+  color: red;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .privacy_img {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 1280px ) {
+  .line_txt p,
+  .privacy p {
+    padding: 3rem 0;
+  }
+  .line_wrap h3 img {
+    padding-right: 3rem;
+  }
+  .attention {
+    color: red;
+    padding-top: 1rem;
+  }
+  .privacy {
+    margin-top: 10rem;
+  }
+}
+
+/* access
+------------------------------------------------------------*/
+.access_page .page_catch {
+  background: url(/img/access_bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* main
+--------------------------------------------------*/
+.access_map {
+  margin-bottom: 5rem;
+}
+.access_outside {
+  width: 80%;
+  padding: 1.5rem 0;
+}
+.nearest_wrap .icn_img {
+  padding-right: 1.5rem;
+}
+.nearest, .bus_stop {
+  margin-bottom: 3rem;
+}
+.access_open {
+  width: 28.5rem;
+}
+.access_open table {
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 768px ) {
+  .access_open {
+    width: 42rem;
+  }
+  .access_open table {
+    margin-bottom: 1rem;
+  }
+  .access_outside {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 1280px ) {
+  .access_map {
+    margin-bottom: 10rem;
+  }
+  .nearest_wrap .icn_img {
+    padding-right: 3rem;
+  }
+  .nearest_wrap p,
+  .nearest_wrap a {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .nearest_wrap a img {
+    width: 100%;
+    max-width: 50rem;
+  }
+  .nearest, .bus_stop {
+    margin-bottom: 6rem;
+  }
+}
+/* prescription
+------------------------------------------------------------*/
+.prescription_page .page_catch {
+  background: url(/img/prescription_bg.png) no-repeat center center;
+  background-size: cover;
+}
+/* main
+--------------------------------------------------*/
+.prescription_bg {
+  background-color: #eec6dc;
+}
+.prescription svg {
+  width: 3rem;
+  height: auto;
+}
+.prescription .active svg {
+  transform: rotate(180deg);
+}
+#textBody_01.active + div,
+#textBody_02.active + div,
+#textBody_03.active + div,
+#textBody_04.active + div  {
+  display: block !important;
+  overflow: hidden;
+}
+#textBody_01.active + div p,
+#textBody_02.active + div p,
+#textBody_03.active + div p,
+#textBody_04.active + div p {
+  animation: feedIn 1s;
+}
+@keyframes feedIn {
+  0% {
+    transform: translateY(-75%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+/* regular
+------------------------------------------------------------*/
+.regular_page .page_catch {
+  background: url(/img/regular_bg.png) no-repeat center center;
+  background-size: cover;
+}
+/* main
+--------------------------------------------------*/
+.regular_bg {
+  background-color: #eec6dc;
+}
+.regular svg {
+  width: 3rem;
+  height: auto;
+}
+.regular .active svg {
+  transform: rotate(180deg);
+}
+/* privacy policy
+------------------------------------------------------------*/
+.privacy_policy_page .page_catch {
+  background: url(/img/logo_mark.png) no-repeat center center;
+  background-size: 20rem;
+}
+.privacy_policy_page .toggle_open span {
+  background-color: #eec6dc;
+}
+/* main
+--------------------------------------------------*/
+.privacy_policy_txt:last-child {
+  border: none;
+}
+.privacy_policy svg {
+  width: 3rem;
+  height: auto;
+}
+.privacy_policy .active svg {
+  transform: rotate(180deg);
+}
+.privacy_policy_txt ul {
+  padding-left: 3rem;
+}
